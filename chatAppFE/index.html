@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <img class="logo" src="assets/logo.png" alt="logo">
+  </nav>
+  
+  <div class="container">
+  </div>
+
+  <div class="send">
+    <form id="send-container" action="#">
+      <textarea type="text" name="msg-input" id="msg-input"></textarea>
+      <button type="submit" class="submit-button">Send</button>
+    </form>
+  </div>
+
+</body>
+<script src="http://localhost:5000/socket.io/socket.io.js"></script>
+<script src="client.js"></script>
+</html>
