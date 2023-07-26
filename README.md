@@ -1,1 +1,5 @@
-### Muliple Socket Chat App
+### Super Chat
+
+#### TOOLS:
+- nodejs
+- socket.io
