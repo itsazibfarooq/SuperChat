@@ -1,4 +1,4 @@
-const socket = io(`http://localhost:5000`);
+const socket = io('https://summer-dream-7216.fly.dev');
 
 const form = document.querySelector("#send-container");
 const msgInput = document.querySelector("#msg-input");

@@ -12,5 +12,8 @@
   },
   "scripts": {
     "server": "nodemon index.js"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.0"
   }
 }

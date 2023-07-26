@@ -1,0 +1,15 @@
+# fly.toml app configuration file generated for summer-dream-7216 on 2023-07-26T04:37:51-07:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "summer-dream-7216"
+primary_region = "sin"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines =false
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
